@@ -1,0 +1,1116 @@
+Name: Neeraj Bukane
+Roll No.:33114
+Class: TE09
+Batch: K9
+
+
+Question 1
+
+> use 33114_Q1
+switched to db 33114_Q1
+> db.Cust_Orders2.find().pretty()
+{
+	"_id" : ObjectId("62fc98011c3f9fd54180ad27"),
+	"C_ID" : 1,
+	"C_name" : "ABC",
+	"Orders" : [
+		{
+			"O_ID" : 11,
+			"O_price" : 10000,
+			"O_date" : ISODate("2022-08-17T07:25:22.914Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("62fc9a2d1c3f9fd54180ad29"),
+	"C_ID" : 2,
+	"C_name" : "BCD",
+	"Orders" : [
+		{
+			"O_ID" : 21,
+			"O_price" : 55000,
+			"O_date" : ISODate("2022-07-06T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 1,
+					"P_name" : "Stapler",
+					"P_price" : 100,
+					"P_quantity" : 100
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+{
+	"_id" : ObjectId("6318367e650836839e53c696"),
+	"C_ID" : 3,
+	"C_name" : "CDE",
+	"Orders" : [
+		{
+			"O_ID" : 31,
+			"O_price" : 5000,
+			"O_date" : ISODate("2022-08-01T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Pencil",
+					"P_price" : 10,
+					"P_quantity" : 500
+				}
+			]
+		},
+		{
+			"O_ID" : 32,
+			"O_price" : 200,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Erasers",
+					"P_price" : 5,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office"
+}
+{
+	"_id" : ObjectId("63183c5ec0894de22051b909"),
+	"C_ID" : 4,
+	"C_name" : "DEF",
+	"Orders" : [
+		{
+			"O_ID" : 41,
+			"O_price" : 4900,
+			"O_date" : ISODate("2022-07-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 5,
+					"P_name" : "Pen",
+					"P_price" : 10,
+					"P_quantity" : 400
+				},
+				{
+					"P_ID" : 6,
+					"P_name" : "Scale",
+					"P_price" : 15,
+					"P_quantity" : 60
+				}
+			]
+		},
+		{
+			"O_ID" : 42,
+			"O_price" : 200,
+			"O_date" : ISODate("2022-07-31T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Eraser",
+					"P_price" : 5,
+					"P_quantity" : 40
+				}
+			]
+		},
+		{
+			"O_ID" : 43,
+			"O_price" : 10000,
+			"O_date" : ISODate("2022-08-02T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 100
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("63183ffdc0894de22051b90a"),
+	"C_ID" : 5,
+	"C_name" : "EFG",
+	"Orders" : [
+		{
+			"O_ID" : 51,
+			"O_price" : 1000,
+			"O_date" : ISODate("2022-06-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 10
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+{
+	"_id" : ObjectId("6318419bc0894de22051b90b"),
+	"C_ID" : 6,
+	"C_name" : "FGH",
+	"Orders" : [
+		{
+			"O_ID" : 61,
+			"O_price" : 6000,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office"
+}
+{
+	"_id" : ObjectId("631843bdc0894de22051b90c"),
+	"C_ID" : 7,
+	"C_name" : "GHI",
+	"Orders" : [
+		{
+			"O_ID" : 71,
+			"O_price" : 5000,
+			"O_date" : ISODate("2022-09-22T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 9,
+					"P_name" : "Crayons",
+					"P_price" : 50,
+					"P_quantity" : 100
+				},
+				{
+					"P_ID" : 10,
+					"P_name" : "Writing Pad",
+					"P_price" : 200,
+					"P_quantity" : 5
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("63184425c0894de22051b90d"),
+	"C_ID" : 8,
+	"C_name" : "HIJ",
+	"Orders" : [
+		{
+			"O_ID" : 81,
+			"O_price" : 6800,
+			"O_date" : ISODate("2022-05-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 10,
+					"P_name" : "Sticky Notes",
+					"P_price" : 85,
+					"P_quantity" : 80
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+> db.Cust_Orders2.aggregate({$unwind:"$Orders"},{$group:{_id:"$C_ID", total_orders:{$sum:1}}},{$sort:{total_oders:-1}})
+{ "_id" : 8, "total_orders" : 1 }
+{ "_id" : 7, "total_orders" : 1 }
+{ "_id" : 6, "total_orders" : 1 }
+{ "_id" : 5, "total_orders" : 1 }
+{ "_id" : 4, "total_orders" : 3 }
+{ "_id" : 3, "total_orders" : 2 }
+{ "_id" : 2, "total_orders" : 1 }
+{ "_id" : 1, "total_orders" : 1 }
+> db.Cust_Orders2.aggregate({$unwind:"$Orders"},{$group:{_id:"$C_ID", total_orders:{$sum:1}}},{$sort:{total_orders:-1}})
+{ "_id" : 4, "total_orders" : 3 }
+{ "_id" : 3, "total_orders" : 2 }
+{ "_id" : 8, "total_orders" : 1 }
+{ "_id" : 7, "total_orders" : 1 }
+{ "_id" : 6, "total_orders" : 1 }
+{ "_id" : 5, "total_orders" : 1 }
+{ "_id" : 2, "total_orders" : 1 }
+{ "_id" : 1, "total_orders" : 1 }
+> db.Cust_Orders2.aggregate({$unwind:"$Orders"},{$group:{_id:"$C_ID", total_orders:{$sum:1}}},{$sort:{total_orders:1}})
+{ "_id" : 8, "total_orders" : 1 }
+{ "_id" : 7, "total_orders" : 1 }
+{ "_id" : 6, "total_orders" : 1 }
+{ "_id" : 5, "total_orders" : 1 }
+{ "_id" : 2, "total_orders" : 1 }
+{ "_id" : 1, "total_orders" : 1 }
+{ "_id" : 3, "total_orders" : 2 }
+{ "_id" : 4, "total_orders" : 3 }
+> db.Cust_Orders2.renameCollection("Orders")
+{ "ok" : 1 }
+> db.Orders.update({},{$unset:{"Orders.O_price":1}},{multi:true})
+WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 0 })
+> db.Orders.find().pretty()
+{
+	"_id" : ObjectId("62fc98011c3f9fd54180ad27"),
+	"C_ID" : 1,
+	"C_name" : "ABC",
+	"Orders" : [
+		{
+			"O_ID" : 11,
+			"O_price" : 10000,
+			"O_date" : ISODate("2022-08-17T07:25:22.914Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("62fc9a2d1c3f9fd54180ad29"),
+	"C_ID" : 2,
+	"C_name" : "BCD",
+	"Orders" : [
+		{
+			"O_ID" : 21,
+			"O_price" : 55000,
+			"O_date" : ISODate("2022-07-06T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 1,
+					"P_name" : "Stapler",
+					"P_price" : 100,
+					"P_quantity" : 100
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+{
+	"_id" : ObjectId("6318367e650836839e53c696"),
+	"C_ID" : 3,
+	"C_name" : "CDE",
+	"Orders" : [
+		{
+			"O_ID" : 31,
+			"O_price" : 5000,
+			"O_date" : ISODate("2022-08-01T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Pencil",
+					"P_price" : 10,
+					"P_quantity" : 500
+				}
+			]
+		},
+		{
+			"O_ID" : 32,
+			"O_price" : 200,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Erasers",
+					"P_price" : 5,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office"
+}
+{
+	"_id" : ObjectId("63183c5ec0894de22051b909"),
+	"C_ID" : 4,
+	"C_name" : "DEF",
+	"Orders" : [
+		{
+			"O_ID" : 41,
+			"O_price" : 4900,
+			"O_date" : ISODate("2022-07-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 5,
+					"P_name" : "Pen",
+					"P_price" : 10,
+					"P_quantity" : 400
+				},
+				{
+					"P_ID" : 6,
+					"P_name" : "Scale",
+					"P_price" : 15,
+					"P_quantity" : 60
+				}
+			]
+		},
+		{
+			"O_ID" : 42,
+			"O_price" : 200,
+			"O_date" : ISODate("2022-07-31T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Eraser",
+					"P_price" : 5,
+					"P_quantity" : 40
+				}
+			]
+		},
+		{
+			"O_ID" : 43,
+			"O_price" : 10000,
+			"O_date" : ISODate("2022-08-02T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 100
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("63183ffdc0894de22051b90a"),
+	"C_ID" : 5,
+	"C_name" : "EFG",
+	"Orders" : [
+		{
+			"O_ID" : 51,
+			"O_price" : 1000,
+			"O_date" : ISODate("2022-06-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 10
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+{
+	"_id" : ObjectId("6318419bc0894de22051b90b"),
+	"C_ID" : 6,
+	"C_name" : "FGH",
+	"Orders" : [
+		{
+			"O_ID" : 61,
+			"O_price" : 6000,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office"
+}
+{
+	"_id" : ObjectId("631843bdc0894de22051b90c"),
+	"C_ID" : 7,
+	"C_name" : "GHI",
+	"Orders" : [
+		{
+			"O_ID" : 71,
+			"O_price" : 5000,
+			"O_date" : ISODate("2022-09-22T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 9,
+					"P_name" : "Crayons",
+					"P_price" : 50,
+					"P_quantity" : 100
+				},
+				{
+					"P_ID" : 10,
+					"P_name" : "Writing Pad",
+					"P_price" : 200,
+					"P_quantity" : 5
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("63184425c0894de22051b90d"),
+	"C_ID" : 8,
+	"C_name" : "HIJ",
+	"Orders" : [
+		{
+			"O_ID" : 81,
+			"O_price" : 6800,
+			"O_date" : ISODate("2022-05-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 10,
+					"P_name" : "Sticky Notes",
+					"P_price" : 85,
+					"P_quantity" : 80
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+> db.Orders.update({},{$unset:{"Orders.$.O_price":1}},{multi:true})
+WriteResult({
+	"nMatched" : 0,
+	"nUpserted" : 0,
+	"nModified" : 0,
+	"writeError" : {
+		"code" : 2,
+		"errmsg" : "The positional operator did not find the match needed from the query."
+	}
+})
+> db.Orders.update({},{$unset:{"Orders.0.O_price":1}},{multi:true})
+WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 8 })
+> db.Orders.update({},{$unset:{"Orders.1.O_price":1}},{multi:true})
+WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 2 })
+> db.Orders.update({},{$unset:{"Orders.2.O_price":1}},{multi:true})
+WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({},{$unset:{"Orders.3.O_price":1}},{multi:true})
+WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 0 })
+> db.Orders.find().pretty()
+{
+	"_id" : ObjectId("62fc98011c3f9fd54180ad27"),
+	"C_ID" : 1,
+	"C_name" : "ABC",
+	"Orders" : [
+		{
+			"O_ID" : 11,
+			"O_date" : ISODate("2022-08-17T07:25:22.914Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("62fc9a2d1c3f9fd54180ad29"),
+	"C_ID" : 2,
+	"C_name" : "BCD",
+	"Orders" : [
+		{
+			"O_ID" : 21,
+			"O_date" : ISODate("2022-07-06T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 1,
+					"P_name" : "Stapler",
+					"P_price" : 100,
+					"P_quantity" : 100
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+{
+	"_id" : ObjectId("6318367e650836839e53c696"),
+	"C_ID" : 3,
+	"C_name" : "CDE",
+	"Orders" : [
+		{
+			"O_ID" : 31,
+			"O_date" : ISODate("2022-08-01T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Pencil",
+					"P_price" : 10,
+					"P_quantity" : 500
+				}
+			]
+		},
+		{
+			"O_ID" : 32,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Erasers",
+					"P_price" : 5,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office"
+}
+{
+	"_id" : ObjectId("63183c5ec0894de22051b909"),
+	"C_ID" : 4,
+	"C_name" : "DEF",
+	"Orders" : [
+		{
+			"O_ID" : 41,
+			"O_date" : ISODate("2022-07-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 5,
+					"P_name" : "Pen",
+					"P_price" : 10,
+					"P_quantity" : 400
+				},
+				{
+					"P_ID" : 6,
+					"P_name" : "Scale",
+					"P_price" : 15,
+					"P_quantity" : 60
+				}
+			]
+		},
+		{
+			"O_ID" : 42,
+			"O_date" : ISODate("2022-07-31T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 4,
+					"P_name" : "Eraser",
+					"P_price" : 5,
+					"P_quantity" : 40
+				}
+			]
+		},
+		{
+			"O_ID" : 43,
+			"O_date" : ISODate("2022-08-02T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 100
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("63183ffdc0894de22051b90a"),
+	"C_ID" : 5,
+	"C_name" : "EFG",
+	"Orders" : [
+		{
+			"O_ID" : 51,
+			"O_date" : ISODate("2022-06-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 10
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+{
+	"_id" : ObjectId("6318419bc0894de22051b90b"),
+	"C_ID" : 6,
+	"C_name" : "FGH",
+	"Orders" : [
+		{
+			"O_ID" : 61,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office"
+}
+{
+	"_id" : ObjectId("631843bdc0894de22051b90c"),
+	"C_ID" : 7,
+	"C_name" : "GHI",
+	"Orders" : [
+		{
+			"O_ID" : 71,
+			"O_date" : ISODate("2022-09-22T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 9,
+					"P_name" : "Crayons",
+					"P_price" : 50,
+					"P_quantity" : 100
+				},
+				{
+					"P_ID" : 10,
+					"P_name" : "Writing Pad",
+					"P_price" : 200,
+					"P_quantity" : 5
+				}
+			]
+		}
+	],
+	"Institution" : "School"
+}
+{
+	"_id" : ObjectId("63184425c0894de22051b90d"),
+	"C_ID" : 8,
+	"C_name" : "HIJ",
+	"Orders" : [
+		{
+			"O_ID" : 81,
+			"O_date" : ISODate("2022-05-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 10,
+					"P_name" : "Sticky Notes",
+					"P_price" : 85,
+					"P_quantity" : 80
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+> db.Orders.update({C_ID:8},{$set:{"Orders.0.Products.0.P_quantity":40}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.find({C_ID:8}).pretty()
+{
+	"_id" : ObjectId("63184425c0894de22051b90d"),
+	"C_ID" : 8,
+	"C_name" : "HIJ",
+	"Orders" : [
+		{
+			"O_ID" : 81,
+			"O_date" : ISODate("2022-05-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 10,
+					"P_name" : "Sticky Notes",
+					"P_price" : 85,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "College"
+}
+> db.Orders.update({},{$set:{"Mob_No":9999988888}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({},{$set:{"Mob_No":9999988888}},{multi:1})
+WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 7 })
+> db.Orders.update({C_ID:1},{$set:{"Mob_No":9999911111}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:2},{$set:{"Mob_No":9999922222}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:3},{$set:{"Mob_No":9999933333}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:4},{$set:{"Mob_No":9999944444}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:5},{$set:{"Mob_No":9999955555}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:6},{$set:{"Mob_No":9999966666}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:7},{$set:{"Mob_No":9999977777}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.find({C_ID:8}).pretty()
+{
+	"_id" : ObjectId("63184425c0894de22051b90d"),
+	"C_ID" : 8,
+	"C_name" : "HIJ",
+	"Orders" : [
+		{
+			"O_ID" : 81,
+			"O_date" : ISODate("2022-05-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 10,
+					"P_name" : "Sticky Notes",
+					"P_price" : 85,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "College",
+	"Mob_No" : 9999988888
+}
+> db.Cust_Orders2.aggregate({$unwind:"$Orders"},{$group:{_id:{C_ID:"$C_ID",C_Name:"$C_name"}, total_orders:{$sum:1}}},{$sort:{total_orders:1}})
+> db.Cust_Orders2.aggregate({$unwind:"$Orders"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name"}, total_orders:{$sum:1}}},{$sort:{total_orders:1}})
+> db.Orders.aggregate({$unwind:"$Orders"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name"}, total_orders:{$sum:1}}},{$sort:{total_orders:1}})
+{ "_id" : { "C_ID" : 8, "C_name" : "HIJ" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 7, "C_name" : "GHI" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 6, "C_name" : "FGH" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 5, "C_name" : "EFG" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 2, "C_name" : "BCD" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 1, "C_name" : "ABC" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 3, "C_name" : "CDE" }, "total_orders" : 2 }
+{ "_id" : { "C_ID" : 4, "C_name" : "DEF" }, "total_orders" : 3 }
+> db.Orders.aggregate({$unwind:"$Orders"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name"}, total_orders:{$sum:1}}},{$sort:{total_orders:-1}})
+{ "_id" : { "C_ID" : 4, "C_name" : "DEF" }, "total_orders" : 3 }
+{ "_id" : { "C_ID" : 3, "C_name" : "CDE" }, "total_orders" : 2 }
+{ "_id" : { "C_ID" : 8, "C_name" : "HIJ" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 7, "C_name" : "GHI" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 6, "C_name" : "FGH" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 5, "C_name" : "EFG" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 2, "C_name" : "BCD" }, "total_orders" : 1 }
+{ "_id" : { "C_ID" : 1, "C_name" : "ABC" }, "total_orders" : 1 }
+> db.Orders.aggregate({$unwind:"$Orders"},{$unwind:"$Orders.Products"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name", Mob_No:"$Mob_No"}, total:{$sum:{$multiply:["$P_price","$P_quantity"]}}}},{$sort:{total_orders:-1}})
+{ "_id" : { "C_ID" : 8, "C_name" : "HIJ", "Mob_No" : 9999988888 }, "total" : 0 }
+{ "_id" : { "C_ID" : 4, "C_name" : "DEF", "Mob_No" : 9999944444 }, "total" : 0 }
+{ "_id" : { "C_ID" : 6, "C_name" : "FGH", "Mob_No" : 9999966666 }, "total" : 0 }
+{ "_id" : { "C_ID" : 3, "C_name" : "CDE", "Mob_No" : 9999933333 }, "total" : 0 }
+{ "_id" : { "C_ID" : 7, "C_name" : "GHI", "Mob_No" : 9999977777 }, "total" : 0 }
+{ "_id" : { "C_ID" : 5, "C_name" : "EFG", "Mob_No" : 9999955555 }, "total" : 0 }
+{ "_id" : { "C_ID" : 2, "C_name" : "BCD", "Mob_No" : 9999922222 }, "total" : 0 }
+{ "_id" : { "C_ID" : 1, "C_name" : "ABC", "Mob_No" : 9999911111 }, "total" : 0 }
+> db.Orders.aggregate({$unwind:"$Orders"},{$unwind:"$Orders.Products"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name", Mob_No:"$Mob_No"}, total:{$sum:{$multiply:["$Products.P_price","$Products.P_quantity"]}}}},{$sort:{total_orders:-1}})
+{ "_id" : { "C_ID" : 8, "C_name" : "HIJ", "Mob_No" : 9999988888 }, "total" : 0 }
+{ "_id" : { "C_ID" : 4, "C_name" : "DEF", "Mob_No" : 9999944444 }, "total" : 0 }
+{ "_id" : { "C_ID" : 6, "C_name" : "FGH", "Mob_No" : 9999966666 }, "total" : 0 }
+{ "_id" : { "C_ID" : 3, "C_name" : "CDE", "Mob_No" : 9999933333 }, "total" : 0 }
+{ "_id" : { "C_ID" : 7, "C_name" : "GHI", "Mob_No" : 9999977777 }, "total" : 0 }
+{ "_id" : { "C_ID" : 5, "C_name" : "EFG", "Mob_No" : 9999955555 }, "total" : 0 }
+{ "_id" : { "C_ID" : 2, "C_name" : "BCD", "Mob_No" : 9999922222 }, "total" : 0 }
+{ "_id" : { "C_ID" : 1, "C_name" : "ABC", "Mob_No" : 9999911111 }, "total" : 0 }
+> db.Orders.aggregate({$unwind:"$Orders"},{$unwind:"$Orders.Products"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name", Mob_No:"$Mob_No"}, total:{$sum:{$multiply:["$Orders.Products.P_price","$Orders.Products.P_quantity"]}}}},{$sort:{total_orders:-1}})
+{ "_id" : { "C_ID" : 8, "C_name" : "HIJ", "Mob_No" : 9999988888 }, "total" : 3400 }
+{ "_id" : { "C_ID" : 4, "C_name" : "DEF", "Mob_No" : 9999944444 }, "total" : 15100 }
+{ "_id" : { "C_ID" : 6, "C_name" : "FGH", "Mob_No" : 9999966666 }, "total" : 6000 }
+{ "_id" : { "C_ID" : 3, "C_name" : "CDE", "Mob_No" : 9999933333 }, "total" : 5200 }
+{ "_id" : { "C_ID" : 7, "C_name" : "GHI", "Mob_No" : 9999977777 }, "total" : 6000 }
+{ "_id" : { "C_ID" : 5, "C_name" : "EFG", "Mob_No" : 9999955555 }, "total" : 1000 }
+{ "_id" : { "C_ID" : 2, "C_name" : "BCD", "Mob_No" : 9999922222 }, "total" : 10350 }
+{ "_id" : { "C_ID" : 1, "C_name" : "ABC", "Mob_No" : 9999911111 }, "total" : 6350 }
+> db.Orders.aggregate({$unwind:"$Orders"},{$unwind:"$Orders.Products"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name", Mob_No:"$Mob_No"}, total:{$sum:{$multiply:["$Orders.Products.P_price","$Orders.Products.P_quantity"]}}}},{$sort:{total:-1}})
+{ "_id" : { "C_ID" : 4, "C_name" : "DEF", "Mob_No" : 9999944444 }, "total" : 15100 }
+{ "_id" : { "C_ID" : 2, "C_name" : "BCD", "Mob_No" : 9999922222 }, "total" : 10350 }
+{ "_id" : { "C_ID" : 1, "C_name" : "ABC", "Mob_No" : 9999911111 }, "total" : 6350 }
+{ "_id" : { "C_ID" : 6, "C_name" : "FGH", "Mob_No" : 9999966666 }, "total" : 6000 }
+{ "_id" : { "C_ID" : 7, "C_name" : "GHI", "Mob_No" : 9999977777 }, "total" : 6000 }
+{ "_id" : { "C_ID" : 3, "C_name" : "CDE", "Mob_No" : 9999933333 }, "total" : 5200 }
+{ "_id" : { "C_ID" : 8, "C_name" : "HIJ", "Mob_No" : 9999988888 }, "total" : 3400 }
+{ "_id" : { "C_ID" : 5, "C_name" : "EFG", "Mob_No" : 9999955555 }, "total" : 1000 }
+> db.Orders.aggregate({$unwind:"$Orders"},{$unwind:"$Orders.Products"},{$group:{_id:{C_ID:"$C_ID", C_name:"$C_name", Mob_No:"$Mob_No"}, total:{$sum:{$multiply:["$Orders.Products.P_price","$Orders.Products.P_quantity"]}}}},{$sort:{total:-1}},{$limit:1})
+{ "_id" : { "C_ID" : 4, "C_name" : "DEF", "Mob_No" : 9999944444 }, "total" : 15100 }
+> db.Orders.aggregate({$count:"$C_ID"}})
+2022-11-02T12:18:54.110+0530 E QUERY    [thread1] SyntaxError: missing ) after argument list @(shell):1:36
+> db.Orders.aggregate({$count:"$C_ID"})
+assert: command failed: {
+	"ok" : 0,
+	"errmsg" : "the count field cannot be a $-prefixed path",
+	"code" : 40158,
+	"codeName" : "Location40158"
+} : aggregate failed
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+doassert@src/mongo/shell/assert.js:16:14
+assert.commandWorked@src/mongo/shell/assert.js:403:5
+DB.prototype._runAggregate@src/mongo/shell/db.js:260:9
+DBCollection.prototype.aggregate@src/mongo/shell/collection.js:1212:12
+@(shell):1:1
+
+2022-11-02T12:19:01.441+0530 E QUERY    [thread1] Error: command failed: {
+	"ok" : 0,
+	"errmsg" : "the count field cannot be a $-prefixed path",
+	"code" : 40158,
+	"codeName" : "Location40158"
+} : aggregate failed :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+doassert@src/mongo/shell/assert.js:16:14
+assert.commandWorked@src/mongo/shell/assert.js:403:5
+DB.prototype._runAggregate@src/mongo/shell/db.js:260:9
+DBCollection.prototype.aggregate@src/mongo/shell/collection.js:1212:12
+@(shell):1:1
+> db.Orders.aggregate({$count:"C_ID"})
+{ "C_ID" : 8 }
+> db.Orders.update({},{$set:{"City":"Pune"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({},{$set:{"City":"Pune"}},{multi:true})
+WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 7 })
+> db.Orders.update({C_ID:8},{$set:{"City":"Hyderabad"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:3},{$set:{"City":"Kolkata"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:2},{$set:{"City":"Calicut"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.update({C_ID:4},{$set:{"City":"Chennai"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.find({City:{$exists:true, $in:["Pune"]}})
+{ "_id" : ObjectId("62fc98011c3f9fd54180ad27"), "C_ID" : 1, "C_name" : "ABC", "Orders" : [ { "O_ID" : 11, "O_date" : ISODate("2022-08-17T07:25:22.914Z"), "Products" : [ { "P_ID" : 3, "P_name" : "Sharpner", "P_price" : 7, "P_quantity" : 50 }, { "P_ID" : 8, "P_name" : "Sketch Pens", "P_price" : 150, "P_quantity" : 40 } ] } ], "Institution" : "School", "Mob_No" : 9999911111, "City" : "Pune" }
+{ "_id" : ObjectId("63183ffdc0894de22051b90a"), "C_ID" : 5, "C_name" : "EFG", "Orders" : [ { "O_ID" : 51, "O_date" : ISODate("2022-06-30T00:00:00Z"), "Products" : [ { "P_ID" : 7, "P_name" : "Notebook", "P_price" : 100, "P_quantity" : 10 } ] } ], "Institution" : "College", "Mob_No" : 9999955555, "City" : "Pune" }
+{ "_id" : ObjectId("6318419bc0894de22051b90b"), "C_ID" : 6, "C_name" : "FGH", "Orders" : [ { "O_ID" : 61, "O_date" : ISODate("2022-08-05T00:00:00Z"), "Products" : [ { "P_ID" : 8, "P_name" : "Sketch Pens", "P_price" : 150, "P_quantity" : 40 } ] } ], "Institution" : "Office", "Mob_No" : 9999966666, "City" : "Pune" }
+{ "_id" : ObjectId("631843bdc0894de22051b90c"), "C_ID" : 7, "C_name" : "GHI", "Orders" : [ { "O_ID" : 71, "O_date" : ISODate("2022-09-22T00:00:00Z"), "Products" : [ { "P_ID" : 9, "P_name" : "Crayons", "P_price" : 50, "P_quantity" : 100 }, { "P_ID" : 10, "P_name" : "Writing Pad", "P_price" : 200, "P_quantity" : 5 } ] } ], "Institution" : "School", "Mob_No" : 9999977777, "City" : "Pune" }
+> db.Orders.find({City:{$exists:true, $in:["Pune"]}}).pretty()
+{
+	"_id" : ObjectId("62fc98011c3f9fd54180ad27"),
+	"C_ID" : 1,
+	"C_name" : "ABC",
+	"Orders" : [
+		{
+			"O_ID" : 11,
+			"O_date" : ISODate("2022-08-17T07:25:22.914Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "School",
+	"Mob_No" : 9999911111,
+	"City" : "Pune"
+}
+{
+	"_id" : ObjectId("63183ffdc0894de22051b90a"),
+	"C_ID" : 5,
+	"C_name" : "EFG",
+	"Orders" : [
+		{
+			"O_ID" : 51,
+			"O_date" : ISODate("2022-06-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 10
+				}
+			]
+		}
+	],
+	"Institution" : "College",
+	"Mob_No" : 9999955555,
+	"City" : "Pune"
+}
+{
+	"_id" : ObjectId("6318419bc0894de22051b90b"),
+	"C_ID" : 6,
+	"C_name" : "FGH",
+	"Orders" : [
+		{
+			"O_ID" : 61,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office",
+	"Mob_No" : 9999966666,
+	"City" : "Pune"
+}
+{
+	"_id" : ObjectId("631843bdc0894de22051b90c"),
+	"C_ID" : 7,
+	"C_name" : "GHI",
+	"Orders" : [
+		{
+			"O_ID" : 71,
+			"O_date" : ISODate("2022-09-22T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 9,
+					"P_name" : "Crayons",
+					"P_price" : 50,
+					"P_quantity" : 100
+				},
+				{
+					"P_ID" : 10,
+					"P_name" : "Writing Pad",
+					"P_price" : 200,
+					"P_quantity" : 5
+				}
+			]
+		}
+	],
+	"Institution" : "School",
+	"Mob_No" : 9999977777,
+	"City" : "Pune"
+}
+>  db.Orders.update({C_ID:7},{$unset:{City:1}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Orders.find({C_ID:7})
+{ "_id" : ObjectId("631843bdc0894de22051b90c"), "C_ID" : 7, "C_name" : "GHI", "Orders" : [ { "O_ID" : 71, "O_date" : ISODate("2022-09-22T00:00:00Z"), "Products" : [ { "P_ID" : 9, "P_name" : "Crayons", "P_price" : 50, "P_quantity" : 100 }, { "P_ID" : 10, "P_name" : "Writing Pad", "P_price" : 200, "P_quantity" : 5 } ] } ], "Institution" : "School", "Mob_No" : 9999977777 }
+> db.Orders.find({City:{$exists:true, $in:["Pune"]}}).pretty()
+{
+	"_id" : ObjectId("62fc98011c3f9fd54180ad27"),
+	"C_ID" : 1,
+	"C_name" : "ABC",
+	"Orders" : [
+		{
+			"O_ID" : 11,
+			"O_date" : ISODate("2022-08-17T07:25:22.914Z"),
+			"Products" : [
+				{
+					"P_ID" : 3,
+					"P_name" : "Sharpner",
+					"P_price" : 7,
+					"P_quantity" : 50
+				},
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "School",
+	"Mob_No" : 9999911111,
+	"City" : "Pune"
+}
+{
+	"_id" : ObjectId("63183ffdc0894de22051b90a"),
+	"C_ID" : 5,
+	"C_name" : "EFG",
+	"Orders" : [
+		{
+			"O_ID" : 51,
+			"O_date" : ISODate("2022-06-30T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 7,
+					"P_name" : "Notebook",
+					"P_price" : 100,
+					"P_quantity" : 10
+				}
+			]
+		}
+	],
+	"Institution" : "College",
+	"Mob_No" : 9999955555,
+	"City" : "Pune"
+}
+{
+	"_id" : ObjectId("6318419bc0894de22051b90b"),
+	"C_ID" : 6,
+	"C_name" : "FGH",
+	"Orders" : [
+		{
+			"O_ID" : 61,
+			"O_date" : ISODate("2022-08-05T00:00:00Z"),
+			"Products" : [
+				{
+					"P_ID" : 8,
+					"P_name" : "Sketch Pens",
+					"P_price" : 150,
+					"P_quantity" : 40
+				}
+			]
+		}
+	],
+	"Institution" : "Office",
+	"Mob_No" : 9999966666,
+	"City" : "Pune"
+}
+> db.Orders.aggregate({$count:{City:{$exists:true, $in:["Pune"]}}}).pretty()
+assert: command failed: {
+	"ok" : 0,
+	"errmsg" : "the count field must be a non-empty string",
+	"code" : 40156,
+	"codeName" : "Location40156"
+} : aggregate failed
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+doassert@src/mongo/shell/assert.js:16:14
+assert.commandWorked@src/mongo/shell/assert.js:403:5
+DB.prototype._runAggregate@src/mongo/shell/db.js:260:9
+DBCollection.prototype.aggregate@src/mongo/shell/collection.js:1212:12
+@(shell):1:1
+
+2022-11-02T12:30:25.666+0530 E QUERY    [thread1] Error: command failed: {
+	"ok" : 0,
+	"errmsg" : "the count field must be a non-empty string",
+	"code" : 40156,
+	"codeName" : "Location40156"
+} : aggregate failed :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+doassert@src/mongo/shell/assert.js:16:14
+assert.commandWorked@src/mongo/shell/assert.js:403:5
+DB.prototype._runAggregate@src/mongo/shell/db.js:260:9
+DBCollection.prototype.aggregate@src/mongo/shell/collection.js:1212:12
+@(shell):1:1
